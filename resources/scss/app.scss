@@ -1,0 +1,18 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.section-table {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.list-inline {
+  li {
+    padding: 0 20px;
+    display: inline-block;
+    border-right: 1px solid #000;
+
+    &:last-child {
+      border: 0 !important;
+    }
+  }
+}
